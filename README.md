@@ -9,6 +9,8 @@ Kleines experimentelles C#-Projekt über die Zeitunterschiede zwischen zwei Fahr
 ## 💻 Ausführen
 git clone https://github.com/divan4kk/F1-vs-GT3
 
-dotnet build
+cd F1-vs-GT3
 
-dotnet run
+npm install
+
+npm run dev
