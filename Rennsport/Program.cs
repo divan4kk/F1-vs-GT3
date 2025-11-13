@@ -30,7 +30,6 @@ namespace RennsportApp
                 Console.WriteLine($"{ferrariGT3.Marke} Sektor {i + 1}: {view.FormatZeit(sektorGT3[i])}");
                 gesamtGT3 += sektorGT3[i];
 
-                System.Threading.Thread.Sleep(500);
             }
 
             Console.WriteLine("\n=== Endergebnisse ===");
