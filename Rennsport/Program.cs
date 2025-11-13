@@ -17,7 +17,6 @@ namespace RennsportApp
 
             Console.WriteLine("=== Qualifikation – Monza (1 Runde) ===\n");
 
-            // Сектори (орієнтовні часи у секундах)
             double[] sektorF1 = { 26.26, 26.48, 26.05 };
             double[] sektorGT3 = { 32.5, 35.2, 37.222 };
 
