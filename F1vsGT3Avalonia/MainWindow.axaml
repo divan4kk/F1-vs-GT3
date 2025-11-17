@@ -1,0 +1,35 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="F1vsGT3Avalonia.MainWindow"
+        Width="1000" Height="650"
+        Background="#1e1e2f"
+        Title="F1 vs GT3 Dashboard">
+
+	<Grid x:Name="MainGrid" Margin="20" RowDefinitions="Auto,*" ColumnDefinitions="*,*">
+
+		<!-- Заголовок -->
+		<TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="F1 vs GT3 Dashboard"
+                   FontSize="36" FontWeight="Bold" Foreground="#FFD700"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Margin="0,0,0,20"/>
+
+		<!-- Панель вибору -->
+		<Border Grid.Row="1" Grid.Column="0" Background="#2b2b3c" CornerRadius="15" Padding="25" Margin="0,0,15,0">
+			<StackPanel x:Name="LeftPanel" HorizontalAlignment="Center"/>
+		</Border>
+
+		<!-- Панель результатів -->
+		<Border Grid.Row="1" Grid.Column="1" Background="#2b2b3c" CornerRadius="15" Padding="25">
+			<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+				<TextBlock Text="Results" Foreground="#00FFFF" FontSize="28" FontWeight="Bold" HorizontalAlignment="Center"/>
+				<StackPanel Margin="0,20,0,0">
+					<TextBlock x:Name="SpeedText" Foreground="#FFB6C1" FontSize="20" Margin="0,5,0,0" TextAlignment="Center"/>
+					<TextBlock x:Name="DriverText" Foreground="#ADFF2F" FontSize="20" Margin="0,5,0,0" TextAlignment="Center"/>
+					<TextBlock x:Name="TeamText" Foreground="#87CEFA" FontSize="20" Margin="0,5,0,0" TextAlignment="Center"/>
+					<TextBlock x:Name="YearText" Foreground="#FFA500" FontSize="20" Margin="0,5,0,0" TextAlignment="Center"/>
+				</StackPanel>
+			</StackPanel>
+		</Border>
+
+	</Grid>
+</Window>

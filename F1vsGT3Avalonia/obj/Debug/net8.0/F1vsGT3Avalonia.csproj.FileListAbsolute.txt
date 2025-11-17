@@ -1,0 +1,7 @@
+C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\obj\Debug\net8.0\F1vsGT3Avalonia.csproj.AssemblyReference.cache
+C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\obj\Debug\net8.0\Avalonia\resources
+C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\obj\Debug\net8.0\F1vsGT3Avalonia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\obj\Debug\net8.0\F1vsGT3Avalonia.AssemblyInfoInputs.cache
+C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\obj\Debug\net8.0\F1vsGT3Avalonia.AssemblyInfo.cs
+C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\obj\Debug\net8.0\F1vsGT3Avalonia.csproj.CoreCompileInputs.cache
