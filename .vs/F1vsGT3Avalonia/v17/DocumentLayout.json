@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|solutionrelative:f1vsgt3avalonia\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|c:\\users\\dm.levchenko\\source\\repos\\f1vsgt3avalonia\\f1vsgt3avalonia\\trackstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|solutionrelative:f1vsgt3avalonia\\trackstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|c:\\users\\dm.levchenko\\source\\repos\\f1vsgt3avalonia\\f1vsgt3avalonia\\trackstatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|solutionrelative:f1vsgt3avalonia\\trackstatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|c:\\users\\dm.levchenko\\source\\repos\\f1vsgt3avalonia\\f1vsgt3avalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|solutionrelative:f1vsgt3avalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|c:\\users\\dm.levchenko\\source\\repos\\f1vsgt3avalonia\\f1vsgt3avalonia\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|solutionrelative:f1vsgt3avalonia\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|c:\\users\\dm.levchenko\\source\\repos\\f1vsgt3avalonia\\f1vsgt3avalonia\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|solutionrelative:f1vsgt3avalonia\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|c:\\users\\dm.levchenko\\source\\repos\\f1vsgt3avalonia\\f1vsgt3avalonia\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|solutionrelative:f1vsgt3avalonia\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|c:\\users\\dm.levchenko\\source\\repos\\f1vsgt3avalonia\\f1vsgt3avalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|solutionrelative:f1vsgt3avalonia\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|c:\\users\\dm.levchenko\\source\\repos\\f1vsgt3avalonia\\f1vsgt3avalonia\\trackstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|solutionrelative:f1vsgt3avalonia\\trackstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|c:\\users\\dm.levchenko\\source\\repos\\f1vsgt3avalonia\\f1vsgt3avalonia\\trackstatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E3CBFA-77C7-46A9-B3BF-CBE0AFFBE24B}|F1vsGT3Avalonia\\F1vsGT3Avalonia.csproj|solutionrelative:f1vsgt3avalonia\\trackstatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,9 +46,9 @@
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\MainWindow.axaml",
               "RelativeDocumentMoniker": "F1vsGT3Avalonia\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\MainWindow.axaml",
-              "RelativeToolTip": "F1vsGT3Avalonia\\MainWindow.axaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\MainWindow.axaml*",
+              "RelativeToolTip": "F1vsGT3Avalonia\\MainWindow.axaml*",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-11-17T08:53:21.176Z",
               "EditorCaption": ""
@@ -61,59 +61,59 @@
               "RelativeDocumentMoniker": "F1vsGT3Avalonia\\MainWindow.axaml.cs",
               "ToolTip": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\MainWindow.axaml.cs",
               "RelativeToolTip": "F1vsGT3Avalonia\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAwwJsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAQwIMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T08:53:20.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\MainViewModel.cs",
               "RelativeDocumentMoniker": "F1vsGT3Avalonia\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\MainViewModel.cs",
               "RelativeToolTip": "F1vsGT3Avalonia\\MainViewModel.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA9wEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T10:44:18.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "F1vsGT3Avalonia\\ViewModelBase.cs",
               "ToolTip": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\ViewModelBase.cs",
               "RelativeToolTip": "F1vsGT3Avalonia\\ViewModelBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T10:45:11.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TrackStatsRepository.cs",
               "DocumentMoniker": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\TrackStatsRepository.cs",
               "RelativeDocumentMoniker": "F1vsGT3Avalonia\\TrackStatsRepository.cs",
               "ToolTip": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\TrackStatsRepository.cs",
               "RelativeToolTip": "F1vsGT3Avalonia\\TrackStatsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwC4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T08:54:20.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "TrackStat.cs",
               "DocumentMoniker": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\TrackStat.cs",
               "RelativeDocumentMoniker": "F1vsGT3Avalonia\\TrackStat.cs",
               "ToolTip": "C:\\Users\\dm.levchenko\\source\\repos\\F1vsGT3Avalonia\\F1vsGT3Avalonia\\TrackStat.cs",
               "RelativeToolTip": "F1vsGT3Avalonia\\TrackStat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T08:54:03.547Z",
               "EditorCaption": ""

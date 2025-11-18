@@ -66,3 +66,4 @@ C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\bin\Debug\net
 C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\bin\Debug\net9.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
 C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\bin\Debug\net9.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
 C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\bin\Debug\net9.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+C:\Users\dm.levchenko\source\repos\F1vsGT3Avalonia\F1vsGT3Avalonia\obj\Debug\net9.0\F1vsGT3Avalonia.sourcelink.json
