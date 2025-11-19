@@ -112,7 +112,6 @@
         if (f1 == null || gt3 == null)
             return false;
 
-        // Differenz je nach gewählter Klasse
         var diff = selectedClass == "F1"
             ? f1.Value - gt3.Value
             : gt3.Value - f1.Value;
@@ -123,7 +122,6 @@
 
     private TimeSpan? ParseTime(string time)
     {
-        // Beispiel: "1:19.958" → "01:19.958"
         var parts = time.Split(':');
         if (parts.Length != 2)
             return null;
@@ -133,7 +131,6 @@
 
         var normalized = $"{parts[0]}:{parts[1]}";
 
-        // Exaktes Format mm:ss.fff
         if (TimeSpan.TryParseExact(normalized, @"mm\:ss\.fff", null, out var t))
             return t;
 
