@@ -1,0 +1,142 @@
+﻿@page "/"
+@inject TrackService TrackService
+
+<div style="display:flex; justify-content:center; padding:40px;">
+    <md-elevated-card style="padding:32px; width:500px;">
+        <h2 style="margin-top:0; color:var(--md-sys-color-primary);">
+            F1 vs GT3 — Streckenvergleich
+        </h2>
+
+        <p style="color: var(--md-sys-color-on-surface); opacity:0.8;">
+            Wählen Sie eine Strecke und eine Fahrzeugklasse aus.
+        </p>
+
+        <!-- TRACK SELECT -->
+        <md-filled-select label="Strecke"
+                          style="width:100%; margin-top:20px;"
+                          @oninput="e => selectedTrack = e.Value?.ToString()">
+            <md-select-option value="Monza">Monza</md-select-option>
+            <md-select-option value="Spa-Francorchamps">Spa-Francorchamps</md-select-option>
+            <md-select-option value="Nürburgring">Nürburgring</md-select-option>
+            <md-select-option value="Red Bull Ring">Red Bull Ring</md-select-option>
+        </md-filled-select>
+
+        <!-- CLASS SELECT -->
+        <md-filled-select label="Klasse"
+                          style="width:100%; margin-top:20px;"
+                          @oninput="e => selectedClass = e.Value?.ToString()">
+            <md-select-option value="F1">F1</md-select-option>
+            <md-select-option value="GT3">GT3</md-select-option>
+        </md-filled-select>
+
+        <!-- BUTTON -->
+        <md-filled-button style="margin-top:30px;"
+                          @onclick="Compare">
+            Vergleichen
+        </md-filled-button>
+
+        <!-- RESULT CARD -->
+        @if (result != null)
+        {
+            <md-elevated-card style="padding:24px; margin-top:30px;">
+                <h3 style="margin-top:0; color:var(--md-sys-color-primary);">
+                    @result.TrackName — Ergebnis
+                </h3>
+
+                @if (selectedClass == "F1")
+                {
+                    <div style="margin-top:20px;">
+                        <h4>F1</h4>
+                        <p><b>Fahrer:</b> @result.F1Pole.Driver</p>
+                        <p><b>Team:</b> @result.F1Pole.Team</p>
+                        <p><b>Zeit:</b> @result.F1Pole.Time</p>
+                        <p><b>Jahr:</b> @result.F1Pole.Year</p>
+                    </div>
+                }
+                else if (selectedClass == "GT3")
+                {
+                    <div style="margin-top:20px;">
+                        <h4>GT3</h4>
+                        <p><b>Fahrer:</b> @result.GT3Pole.Driver</p>
+                        <p><b>Team:</b> @result.GT3Pole.Team</p>
+                        <p><b>Zeit:</b> @result.GT3Pole.Time</p>
+                        <p><b>Jahr:</b> @result.GT3Pole.Year</p>
+                    </div>
+                }
+
+                <!-- GAP -->
+                <div style="margin-top:24px; padding-top:16px; border-top:1px solid #ddd;">
+                    <h4>Zeitdifferenz</h4>
+
+                    @if (TryGetGap(out var gap))
+                    {
+                        <p><b>Differenz:</b> @gap</p>
+                    }
+                    else
+                    {
+                        <p>Die Differenz konnte nicht berechnet werden.</p>
+                    }
+                </div>
+            </md-elevated-card>
+        }
+    </md-elevated-card>
+</div>
+
+@code {
+    private string? selectedTrack;
+    private string? selectedClass;
+    private TrackStat? result;
+
+    private void Compare()
+    {
+        if (string.IsNullOrWhiteSpace(selectedTrack))
+        {
+            result = null;
+            return;
+        }
+
+        var data = TrackService.GetTracksAsync().Result;
+        result = data.FirstOrDefault(t => t.TrackName == selectedTrack);
+    }
+
+    private bool TryGetGap(out string gap)
+    {
+        gap = "";
+
+        if (result == null)
+            return false;
+
+        var f1 = ParseTime(result.F1Pole.Time);
+        var gt3 = ParseTime(result.GT3Pole.Time);
+
+        if (f1 == null || gt3 == null)
+            return false;
+
+        // Differenz je nach gewählter Klasse
+        var diff = selectedClass == "F1"
+            ? f1.Value - gt3.Value
+            : gt3.Value - f1.Value;
+
+        gap = diff.ToString(@"mm\:ss\.fff");
+        return true;
+    }
+
+    private TimeSpan? ParseTime(string time)
+    {
+        // Beispiel: "1:19.958" → "01:19.958"
+        var parts = time.Split(':');
+        if (parts.Length != 2)
+            return null;
+
+        if (parts[0].Length == 1)
+            parts[0] = "0" + parts[0];
+
+        var normalized = $"{parts[0]}:{parts[1]}";
+
+        // Exaktes Format mm:ss.fff
+        if (TimeSpan.TryParseExact(normalized, @"mm\:ss\.fff", null, out var t))
+            return t;
+
+        return null;
+    }
+}
