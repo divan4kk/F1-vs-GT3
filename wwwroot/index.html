@@ -5,7 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>F1vsGT3Web</title>
-    <base href="/" />
+
+    <!-- GitHub Pages: base *має бути відносний* -->
+    <base href="/F1-vs-GT3/" />
 
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
@@ -15,20 +17,7 @@
     <script type="module" src="https://esm.run/@material/web/all"></script>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap">
-
-    <style>
-        :root {
-            --md-sys-color-primary: #6750A4;
-            --md-sys-color-secondary: #625B71;
-            --md-sys-color-tertiary: #7D5260;
-            --md-sys-color-background: #FFFBFE;
-            --md-sys-color-surface: #FFFBFE;
-            --md-sys-color-on-surface: #1C1B1F;
-            font-family: "Roboto", sans-serif;
-        }
-    </style>
 </head>
-
 
 <body>
     <div id="app">
@@ -44,7 +33,9 @@
         <a href="." class="reload">Reload</a>
         <span class="dismiss">🗙</span>
     </div>
-    <script src="_framework/blazor.webassembly.js"></script>
+
+    <!-- ABSOLUTE PATH MUST MATCH base href -->
+    <script src="/F1-vs-GT3/_framework/blazor.webassembly.js"></script>
 </body>
 
 </html>
