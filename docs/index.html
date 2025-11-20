@@ -1,4 +1,3 @@
-<!-- index.html для локальної роботи або іншого сервера -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>F1vsGT3Web</title>
+
+    <!-- Встановлення правильного базового шляху для GitHub Pages -->
+    <base href="/F1-vs-GT3/" />
 
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
@@ -31,8 +33,9 @@
         <span class="dismiss">🗙</span>
     </div>
 
-    <!-- Абсолютний шлях для локальної роботи -->
+    <!-- Абсолютний шлях для локальної роботи, для GitHub Pages використовувати відносний шлях -->
     <script src="/_framework/blazor.webassembly.js"></script>
+
 </body>
 
 </html>
